@@ -1,0 +1,61 @@
+/* Albums.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+h1 {
+    background-color: #0077cc;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+table.downloads-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table.downloads-table th, table.downloads-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+table.downloads-table th {
+    background-color: #0077cc;
+    color: #fff;
+}
+
+a.audio-link, a.video-link {
+    color: #0077cc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a.audio-link:hover, a.video-link:hover {
+    color: #005599;
+}
+
+a.video-link {
+    margin-left: 10px;
+}
+
+a.view-cookies-link, a.delete-cookies-link {
+    display: block;
+    margin-top: 20px;
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: bold;
+}

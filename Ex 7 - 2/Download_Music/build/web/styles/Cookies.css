@@ -1,0 +1,38 @@
+/* Cookies.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+h1 {
+    background-color: #0077cc;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+ul.cookie-list {
+    list-style: none;
+    padding: 0;
+}
+
+ul.cookie-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+a.view-albums-link {
+    display: block;
+    margin-top: 20px;
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a.view-albums-link:hover {
+    color: #005599;
+}

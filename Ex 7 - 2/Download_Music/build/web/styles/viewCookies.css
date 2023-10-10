@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    background-color: #0077cc;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+p {
+    margin: 20px;
+    font-size: 18px;
+}
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #005599;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    background-color: #0077cc;
+    color: #fff;
+}
+
+.delete-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #ff0000;
+}
